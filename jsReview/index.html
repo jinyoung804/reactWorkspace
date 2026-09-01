@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      /* 
+        1.선언적 함수
+        function test() {....} 실행시킬때 -> test();
+        2. 표현적 함수
+        let a = function(){...} //익명함수  실행시킬때 -> a(); 변수 선언
+        3. 화살표 함수
+        let a =()=>{..}
+
+        이벤트 핸들러/리스너
+        
+        */
+      function btnClick() {
+        let workObj = document.getElementById("hi");
+        window.alert("안녕");
+        workObj.style.color = "red";
+      }
+    </script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="hi">Hello, World!!</h1>
+    <button onclick="btnClick()">클릭</button>
+  </body>
+</html>
