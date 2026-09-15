@@ -1,7 +1,10 @@
-export default function Button({ text, color = "blue" }) {
+export default function Button({ text, color = "blue", children }) {
   return (
     <>
-      <button style={{ color: color }}>{text}</button>
+      <button style={{ color: color }}>
+        {text}
+        {children}
+      </button>
     </>
   );
 }

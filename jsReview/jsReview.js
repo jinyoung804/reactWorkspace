@@ -9,7 +9,7 @@ let person = {
     console.log("hi");
   },
 };
-let { age, name } = person;
+//let { age, name } = person;
 
 let nameVar = person.name;
 let age = person["age"];

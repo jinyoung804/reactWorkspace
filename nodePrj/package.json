@@ -1,0 +1,17 @@
+{
+  "name": "jinyoung",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "randomcolor": "^0.6.2",
+    "unique-string": "^3.0.0"
+  }
+}
