@@ -1,10 +1,12 @@
 import { useState } from "react";
 export default function Counter() {
   const [count, setCount] = useState(0);
-  let btnClick = () => {
+  let btnClick = (e) => {
     //이벤트 핸들러 함수
 
     setCount(count + 1);
+    console.log("이벤트 객체 :", e);
+    console.log("좌표 x값 :", e.clientX);
   };
   let btnClick2 = () => {
     //이벤트 핸들러 함수
