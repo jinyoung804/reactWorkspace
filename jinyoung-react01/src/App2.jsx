@@ -2,6 +2,7 @@ import Counter from "./components/Counter";
 import Light from "./components/Light";
 import LikeButton from "./components/LikeButton";
 import SearchForm from "./components/SearchForm";
+import Register from "./components/Register";
 function App2() {
   return (
     <>
